@@ -5,4 +5,4 @@ HTML adaptation of the 15 puzzle. Rearrange the numbered tiles into order by sli
 <img height="375" alt="image" src="https://github.com/user-attachments/assets/c93870f7-f1c8-4f82-b798-bc74ff1690c2" />
 
 ## 🤔**Where to find the source code?**
-All Source code files are at the **master** branch. Just simply open each one
+All Source code files are at the **master** branch. Simply open each one and that's it
