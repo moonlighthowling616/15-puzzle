@@ -1,6 +1,6 @@
 const tileSize = 100;
 const tilesArray = Array.from({ length: 15 }, (_, i) => i + 1);
-tilesArray.push(0); // empty tile
+tilesArray.push(0);
 let emptyIndex = 15;
 let moveCount = 0;
 
