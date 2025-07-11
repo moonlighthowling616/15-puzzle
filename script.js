@@ -85,3 +85,22 @@ document.getElementById('about-btn').addEventListener('click', () => {
 });
 
 shuffleTiles();
+
+const aboutBtn = document.getElementById("about-btn");
+const modal = document.getElementById("about-modal");
+const closeBtn = document.getElementById("close-about");
+
+aboutBtn.addEventListener("click", () => {
+  modal.style.display = "block";
+});
+
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
+});
+
