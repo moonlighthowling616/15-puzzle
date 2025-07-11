@@ -79,13 +79,6 @@ function shuffleTiles() {
 
 document.getElementById('shuffle-btn').addEventListener('click', shuffleTiles);
 
-document.getElementById('about-btn').addEventListener('click', () => {
-  const aboutBox = document.getElementById('about-box');
-  aboutBox.classList.toggle('hidden');
-});
-
-shuffleTiles();
-
 const aboutBtn = document.getElementById("about-btn");
 const modal = document.getElementById("about-modal");
 const closeBtn = document.getElementById("close-about");
@@ -104,3 +97,4 @@ window.addEventListener("click", (event) => {
   }
 });
 
+shuffleTiles();
